@@ -6097,10 +6097,11 @@
       <span
         ><span class="home-about-us-courses-careers-library-contact-us-span">
         </span
-        ><span class="home-about-us-courses-careers-library-contact-us-span2"
-          >Home</span
-        ><span class="home-about-us-courses-careers-library-contact-us-span3">
-          About Us Courses + Careers + Library Contact Us</span
+        >
+        <span class="home-about-us-courses-careers-library-contact-us-span2"
+          ><a href="{{url('/')}}">Home</a></span>
+        <span class="home-about-us-courses-careers-library-contact-us-span3">
+          <a href="{{route('about-us')}}">About Us</a> Courses + Careers + Library Contact Us</span
         ></span
       >
     </div>
